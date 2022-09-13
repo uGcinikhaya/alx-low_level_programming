@@ -16,7 +16,7 @@ int main(void)
 
 	while (i < 58)
 	{
-		putshar(i);
+		putchar(i);
 		if (i != 57)
 		{
 			putchar(44);
