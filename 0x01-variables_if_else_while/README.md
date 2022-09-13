@@ -4,3 +4,4 @@ A program that prints the alphabet in lowercase.
 A program that prints the alphabet in lowercase, and in uppercase.
 A program that prints the alphabet in lowercase, followed by a new line.
 A program that prints all single digit numbers of base 10 starting from 0.
+Aprogram that prints all single digit numbers of base 10 starting from 0.
