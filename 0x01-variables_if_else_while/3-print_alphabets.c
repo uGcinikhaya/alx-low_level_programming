@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: prints the alphabet in lowercase and 
+ * Description: prints the alphabet in lowercase and
  * then in uppercase.
  *
  * Return: 0 (success)
@@ -18,6 +18,8 @@ int main(void)
 		letter++;
 	}
 	letter = 'A';
+
+	while (letter <= 'Z')
 	{
 		putchar(letter);
 		letter++;
