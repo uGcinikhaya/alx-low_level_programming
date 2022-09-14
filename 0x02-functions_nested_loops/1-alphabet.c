@@ -1,21 +1,21 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * Print_alphabet - Entry point
  *
- * Description: Prints alphabet in lower case
+ * Description: Prints alphabet in lower case.
  *
  * Return: 0 means Success.
  */
 
-void print_alphabet(void);
+void print_alphabet(void)
 {
 
-	char E;
+	char e;
 
-	for (E = 'a'; E <= 'z'; E++)
+	for (e = 'a'; e <= 'z'; e++)
 	{
-		_putchar(E);
+		_putchar(e);
 	}
 	_putchar('\n');
 }
