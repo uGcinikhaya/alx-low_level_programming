@@ -3,12 +3,12 @@
 /**
  * main - Entry point
  *
- * Description: Prints alphabet in lower case.
+ * Description: Prints alphabet in lower case
  *
  * Return: 0 means Success.
  */
 
-void print_alphabet(void)
+void print_alphabet(void);
 {
 
 	char E;
