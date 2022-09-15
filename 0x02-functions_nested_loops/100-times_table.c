@@ -15,7 +15,7 @@ void print_times_table(int g)
 	{
 		for (row = 0; row <= g; row++)
 		{
-			for (col = 0; col <= n; col++)
+			for (col = 0; col <= g; col++)
 			{
 
 				mult = (row * col);
