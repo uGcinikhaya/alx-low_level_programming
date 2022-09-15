@@ -3,19 +3,19 @@
 /**
  * print_last_digit - prints last digit of a number
  *
- * @x: the input number to check
+ * @b: the input number to check
  *
  * Return: int.
  */
 
-int print_last_digit(int x)
+int print_last_digit(int b)
 {
 
-	x %= 10;
+	b %= 10;
 
-	if (x < 0)
-		x *= -1;
+	if (b < 0)
+		b *= -1;
 
-	_putchar(x + '0');
-	return (x);
+	_putchar(b + '0');
+	return (b);
 }
