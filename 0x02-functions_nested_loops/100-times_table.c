@@ -3,7 +3,6 @@
 /**
  * print_times_table - prints the times table
  * @g: integer for which the times table will print in
- * Description: prints the times table
  * Return: nothing.
  */
 
@@ -16,23 +15,26 @@ void print_times_table(int g)
 	{
 		for (row = 0; row <= g; row++)
 		{
-			mult = (row * col);
-			if (mult < 10)
+			for (col = 0; col <= n; col++)
 			{
-				if (col != 0)
+
+				mult = (row * col);
+				if (mult < 10)
+				{
+					if (col != 0)
+					{
+						_putchar(' ');
+						_putchar(' ');
+						_putchar(' ');
+					}
+					_putchar(mult + '0');
+				}
+				else if (mult < 100)
 				{
 					_putchar(' ');
 					_putchar(' ');
-					_putchar(' ');
-				}
-				_putchar(mult + '0');
-			}
-			else if (mult < 100)
-			{
-				_putchar(' ');
-				_putchar(' ');
-				_putchar((mult / 10) + '0');
-				_putchar((mult % 10) + '0');
+					_putchar((mult / 10) + '0');
+					_putchar((mult % 10) + '0');
 				}
 				else
 				{
