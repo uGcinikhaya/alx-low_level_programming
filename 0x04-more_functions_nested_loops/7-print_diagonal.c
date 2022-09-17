@@ -2,24 +2,22 @@
 #include <stdio.h>
 
 /**
- * print_diagonal - function that prints diagonal line
+ * print_diagonal - function that draws diagonal line
  * @n: input to be checked
  * Return: nothing
  */
 
 void print_diagonal(int n)
 {
-	int i = 0;
+	int a, b;
 
-	while (i < n)
+	for (b = 1; b <= n; b++)
 	{
-		if (n > 0)
-		{
-			_putchar(92);
-			i += 1;
-		}
-		else
-			_putchar('\n');
+		for (a = 1; a < b; a++)
+			_putchar(' ');
+		_putchar('\\');
+		_putchar('\n');
 	}
-	_putchar('\n');
+	if (n < 1)
+		_putchar('\n');
 }
