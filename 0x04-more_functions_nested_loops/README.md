@@ -4,3 +4,4 @@ A function that multiplies two integers.
 A function that prints numbers from 0 to 9.
 A function that prints the numbers from 0 -9.
 A function that prints 10 times the numbers from 0 - 14
+A function that draws a straight line in the terminal.
