@@ -2,9 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - FizzBuzz Interview Test
- *
- * Description: print numbers 1 - 100, replacing multiples of
+ * main - Program that prints numbers 1 - 100, replacing multiples of
  * 3 with Fizz and multiples of 5 with Buzz and multiples of
  * both with FizzBuzz
  *
