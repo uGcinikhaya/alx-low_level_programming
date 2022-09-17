@@ -8,3 +8,5 @@ A function that draws a straight line in the terminal.
 A function that draws a diagonal line in the terminal.
 A function that prints a square.
 A program that prints the numbers 1 to 100.
+A fizzbuzz interview question.
+A program that prints triangles.
