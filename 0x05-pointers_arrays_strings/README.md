@@ -7,3 +7,4 @@ A function that reverses a string.
 A function that prints every character of a string, starrting with the first character.
 A function that prints half of a string.
 A function that prints half of the string.
+A function that prints n elements of an array of integers.
