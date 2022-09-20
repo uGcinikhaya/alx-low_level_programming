@@ -5,3 +5,5 @@ A function that prints a string.
 A function that prints a string, in reverse.
 A function that reverses a string.
 A function that prints every character of a string, starrting with the first character.
+A function that prints half of a string.
+A function that prints half of the string.
