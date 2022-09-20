@@ -8,3 +8,4 @@ A function that prints every character of a string, starrting with the first cha
 A function that prints half of a string.
 A function that prints half of the string.
 A function that prints n elements of an array of integers.
+A function that copies the string pointedto by src.
