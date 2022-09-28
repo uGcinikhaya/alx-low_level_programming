@@ -6,25 +6,22 @@
  * @a: pointer to start a matrix
  * @size: width of matrix column
  *
- * Return: void
+ * Return: void or nothing
  */
 
 void print_diagsums(int *a, int size)
 {
-	int sum1, sum2, y;
+	int i, j, p, l = 0, r = 0;
 
-	sum1 = 0;
-	sum2 = 0;
-
-	for (y + 0; y < size; y++)
+	for (i = 0; i < size; i++)
 	{
-		sum1 = sum1 + a[y * size + y];
+		p = (i * size) + 1;
+		l += *(a +p);
 	}
-
-	for (y = size - 1; y >= 0; y--)
+	for (j = 0; j < size; j++)
 	{
-		sum2 += a[y * size + (size - y - 1)];
+		p = (j * size) + (size - 1 - j);
+		r += *(a + p);
 	}
-
-	printf("%d, %d\n", sum1, sum2);
+	printf("%i, %i\n", l, r);
 }
